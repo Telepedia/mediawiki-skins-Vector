@@ -1,0 +1,21 @@
+<div id="header">
+  <div class="logo">
+    <a href="https://telepedia.net">
+      <img id="header-img" src="https://static.telepedia.net/metawiki/0/02/Telepedia_Logo_White.svg" alt="Telepedia.net logo">
+    </a>
+  </div>
+
+  <input type="checkbox" class="menu-btn" id="menu-btn">
+  <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+
+  <nav id="nav-bar">
+    <div class="menu">
+      <div role="navigation" id="p-personal" class="mw-portlet mw-portlet-personal" title=" title=&quot;User menu&quot;" aria-labelledby="p-personal-label">
+        {{#data-portlets}}
+          {{>LegacyUserLinks}}
+        {{/data-portlets}}
+      </div>
+    </div>
+  </nav>
+</div>
+
